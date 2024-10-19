@@ -2,8 +2,8 @@ from collections import defaultdict
 
 import funcy as fn
 from aiger import AIG, BoolExpr
-from aigerbv.aigbv import AIGBV
-from aigerbv.expr import SignedBVExpr, UnsignedBVExpr
+from aiger_bv.aigbv import AIGBV
+from aiger_bv.expr import SignedBVExpr, UnsignedBVExpr
 from toposort import toposort
 
 
